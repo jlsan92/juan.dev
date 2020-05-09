@@ -173,6 +173,9 @@
             Backend development</li>
           <li>
             <i class="fa-li fa fa-check"></i>
+            CI/CD pipelines</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
             Always Docker-first</li>
           <li>
             <i class="fa-li fa fa-check"></i>
@@ -238,6 +241,25 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBplsH1ggeykAbx2Z5FaMSJ9y3crlPhCAI",
+      authDomain: "juan-dev-4d60b.firebaseapp.com",
+      databaseURL: "https://juan-dev-4d60b.firebaseio.com",
+      projectId: "juan-dev-4d60b",
+      storageBucket: "juan-dev-4d60b.appspot.com",
+      messagingSenderId: "572776131916",
+      appId: "1:572776131916:web:57d88c0d6acec3c4aeb3e9",
+      measurementId: "G-MJHV4N1T39"
+    };
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 
 </body>
 
